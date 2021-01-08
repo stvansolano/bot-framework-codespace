@@ -31,6 +31,9 @@ RUN apt-get update \
 RUN curl -sL https://deb.nodesource.com/setup_15.x | bash -
 RUN apt-get install -y nodejs
 
+EXPOSE 3978
+EXPOSE 8080
+
 # Setting the ENTRYPOINT to docker-init.sh will configure non-root access to the Docker
 # socket. The script will also execute CMD if you need to alter startup behaviors.
 ENTRYPOINT [ "/usr/local/share/docker-init.sh" ]
