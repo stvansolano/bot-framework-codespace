@@ -11,12 +11,5 @@ A ready-to-use, templated GitHub Codespace that I regularly use for VS Code on G
 ## Batteries included
 
 - Docker
-- Kubernetes (WIP)
 - NodeJS
-- .NET 3.1
-
-Extensions
-
-- SQL Server
-- Docker
-- C#
+- .NET (if needed)
