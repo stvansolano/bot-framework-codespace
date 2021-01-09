@@ -1,0 +1,18 @@
+{
+    "name": "External bot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "[URL-goes-here]/api/messages",
+            "id": "da9be380-51d7-11eb-bea6-73be42fe1c98",
+            "name": "GitHub Codespace"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\dev\\stvansolano\\bot-framework\\External.bot",
+    "overrides": null
+}
