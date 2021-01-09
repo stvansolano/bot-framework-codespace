@@ -39,6 +39,15 @@ A ready-to-use, templated GitHub Codespace that I regularly use for VS Code on G
 - Build your bot. .NET | [JavaScript](https://docs.microsoft.com/en-us/azure/bot-service/javascript/bot-builder-javascript-quickstart?view=azure-bot-service-4.0) | Python and others
 - Using Continuous Integration.
 
+## Using Yeoman (JavaScript)
+
+```
+npm install -g yo
+npm install -g generator-botbuilder
+```
+
+> Codespace issue with Yeoman: chmod g+rwx /root /root/.config /root/.config/configstore
+
 ## Connect & Monitor your bots
 - Channels - https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
 

@@ -28,6 +28,8 @@ RUN apt-get update \
 
 RUN curl -sL https://deb.nodesource.com/setup_15.x | bash -
 RUN apt-get install -y nodejs
+RUN npm install -g yo && chmod g+rwx /root /root/.config /root/.config/configstore
+RUN npm install -g generator-botbuilder
 
 # Typescript support
 RUN npm install -g typescript
