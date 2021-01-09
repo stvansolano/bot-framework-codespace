@@ -29,12 +29,11 @@ A ready-to-use, templated GitHub Codespace that I regularly use for VS Code on G
 # How to run it (Codespace)
 
 1) Clone the [samples](https://github.com/microsoft/BotBuilder-Samples.git) - https://github.com/microsoft/BotBuilder-Samples.git
-2) Pick a sample (`cd` to folder), then `npm install` and start - `npm run build && npm start` 
-3) Copy forwarded URL from codespace
-4) Make a New Bot file (External.bot) and use `[URL-goes-here]/api/messages` endpoint
-5) Open bot in Emulator
-
-> No ngrok required!
+2) Install `ngrok`
+3) Copy forwarded/tunneled ngrok URL - `curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip --output ngrok.zip && unzip ngrok && ./ngrok http 3978`
+4) Pick a sample (`cd` to folder), then `npm install` and start - `npm run build && npm start` 
+5) Make a New Bot file (External.bot) and use `[URL-goes-here]/api/messages` endpoint
+6) Open bot in Emulator
 
 ## Build, test & deploy your bots
 - Build your bot. .NET | [JavaScript](https://docs.microsoft.com/en-us/azure/bot-service/javascript/bot-builder-javascript-quickstart?view=azure-bot-service-4.0) | Python and others
