@@ -31,6 +31,9 @@ RUN apt-get update \
 RUN curl -sL https://deb.nodesource.com/setup_15.x | bash -
 RUN apt-get install -y nodejs
 
+# Typescript support
+RUN npm install -g typescript
+RUN npm i --save-dev @types/node
 EXPOSE 3978
 EXPOSE 8080
 
